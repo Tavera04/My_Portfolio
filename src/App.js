@@ -16,12 +16,12 @@ function App()
         <div>
           <TopBar />
 
-          <Route exact path="/My_Portfolio" component={Home} />
-          <Route exact path="/My_Portfolio/Unreal" component={UnrealPage} />
-          <Route exact path="/My_Portfolio/WebDevelopment" component={WebDevPage} />
-          <Route exact path="/My_Portfolio/CSharp" component={CSharpPage} />
-          <Route exact path="/My_Portfolio/Unity" component={Unity} />
-          <Route exact path="/My_Portfolio/CPlusPlus" component={CppPage} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Unreal" component={UnrealPage} />
+          <Route exact path="/WebDevelopment" component={WebDevPage} />
+          <Route exact path="/CSharp" component={CSharpPage} />
+          <Route exact path="/Unity" component={Unity} />
+          <Route exact path="/CPlusPlus" component={CppPage} />
 
         </div>
       </Router>

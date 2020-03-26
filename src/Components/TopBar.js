@@ -8,16 +8,16 @@ function TopBar()
 {
 	return (
 		<Navbar collapseOnSelect expand="lg" className="topBar-container sticky-top" variant="dark">
-		  <Navbar.Brand href="/My_Portfolio">Home</Navbar.Brand>
+		  <Navbar.Brand href="/">Home</Navbar.Brand>
 		  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 		  <Navbar.Collapse id="responsive-navbar-nav">
 		    <Nav className="mr-auto">
 		      <NavDropdown title="My Projects" id="collasible-nav-dropdown">
-		        <NavDropdown.Item href="/My_Portfolio/CPlusPlus">C++</NavDropdown.Item>
-		        <NavDropdown.Item href="/My_Portfolio/CSharp">C#</NavDropdown.Item>
-		        <NavDropdown.Item href="/My_Portfolio/Unreal">Unreal Engine IV</NavDropdown.Item>
-		        <NavDropdown.Item href="/My_Portfolio/Unity">Unity</NavDropdown.Item>
-		        <NavDropdown.Item href="/My_Portfolio/WebDevelopment">Web Development</NavDropdown.Item>
+		        <NavDropdown.Item href="/CPlusPlus">C++</NavDropdown.Item>
+		        <NavDropdown.Item href="/CSharp">C#</NavDropdown.Item>
+		        <NavDropdown.Item href="/Unreal">Unreal Engine IV</NavDropdown.Item>
+		        <NavDropdown.Item href="/Unity">Unity</NavDropdown.Item>
+		        <NavDropdown.Item href="/WebDevelopment">Web Development</NavDropdown.Item>
 		      </NavDropdown>
 		    </Nav>
 		    <Nav>

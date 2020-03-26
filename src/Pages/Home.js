@@ -37,7 +37,7 @@ function Home()
 					</div>
 
 					<div className="gratitude col-lg-12">
-						<a href="/My_Portfolio/CPlusPlus" className="btn btn-danger btn-lg" >...and Welcome to my Portfolio!</a>
+						<a href="/CPlusPlus" className="btn btn-danger btn-lg" >...and Welcome to my Portfolio!</a>
 					</div>
 				</div>
 			</div>
