@@ -16,32 +16,30 @@ hr{
 /* Heading */
 .heading-container{
   background-color: #cccccc;
-  height: 40rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-image: url('contents/First Level/prison1.jpg');
+  text-align: center;
+  
 }
 
 .heading-content{
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .5);;
-  padding:  2rem;
+  
+  background-color: hotpink;
+  background-color: rgba(0, 0, 0, .5);
+  padding:  2rem 2rem 3rem;
   font-family: 'ResidentEvil';
-
 }
 
 .heading-content h1{
-  text-align: center;
   color: red;
   font-size: 17vh;
   letter-spacing: .5rem;
 }
 
 .heading-content p{
-  text-align: center;
   color: white;
   font-size: 7vh;
   margin: 0;
@@ -51,16 +49,16 @@ hr{
 .my-email{
   font-family: 'Times New Roman', Times, serif;
   color: white;
-  margin-top: -10rem;
-  text-align: center;
-  font-size: 3vh;;
+  margin-top: 10%;
+  font-size: 3vh;
 }
 
 /*Top Bar*/
 
 .topBar-container{
   background-color: rgb(27, 31, 31);
-  padding: 10px 70px
+  padding: 10px 70px;
+  padding: 10px 7rem;
 }
 
 /*Home page*/
@@ -164,7 +162,13 @@ hr{
   font-size: 3rem;
 }
 
-.gratitude a{
+.about-me-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gratitude {
   width: 100%;
   background-color: black;
   font-size: 5rem;
@@ -172,9 +176,9 @@ hr{
 }
 
 .avatar{
-  vertical-align: middle;
   width: 100%;
-  height: 100%;
+  padding: 10%;
+  height: auto;
   border-radius: 50%;
 }
 
@@ -190,29 +194,37 @@ hr{
   .home-content h2{
     font-size: 4rem;
   }
-
   .home-content p{
     font-size: 3rem;
   }
-
- .project-page-section{
+  
+  .project-page-section{
     padding: 2rem 1rem;
   }
-
+  
   .about-me{
     padding: 2rem 0;
   }
-
+  
   .avatar{
-    width: 100%; height: 60%;
+    padding: 0;;
   }
+  
+  .topBar-container{
+    padding: 10px 1rem;
+  }
+  
+  .gratitude a{
+    font-size: 4rem;
+  }
+
 }
 
 @media(max-width: 700px){
   .project h1{
     font-size: 4rem;
   }
-
+  
   .project-page-title{
     font-size: 4rem;
   }
@@ -223,13 +235,5 @@ hr{
 
   .card img{
     height: 200px;
-  }
-
-  .gratitude a{
-    font-size: 2.5rem;
-  }
-
-  .avatar{
-    width: 100%; height: 100%;
-  }
+  }  
 }

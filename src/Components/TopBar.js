@@ -11,7 +11,10 @@ function TopBar()
 		  <Navbar.Brand href="/">Home</Navbar.Brand>
 		  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 		  <Navbar.Collapse id="responsive-navbar-nav">
+
 		    <Nav className="mr-auto">
+			  <Nav.Link target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1ZaEcpfSZkDs4qDfWGv81GC36AKTcoLcD/view?usp=sharing">Resume</Nav.Link>
+
 		      <NavDropdown title="My Projects" id="collasible-nav-dropdown">
 		        <NavDropdown.Item href="/CPlusPlus">C++</NavDropdown.Item>
 		        <NavDropdown.Item href="/CSharp">C#</NavDropdown.Item>
