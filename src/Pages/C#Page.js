@@ -24,6 +24,15 @@ function CSharpPage()
 						codeURL="https://github.com/Tavera15/InvoiceGenerator"
 						desc="My first C# Form project that can be used as a tool for a small business. This application can store basic customer information using a JSON file, keep track of invoice numbers, and save invoices to a folder."
 					/>
+
+					<ProjectCard
+						name="Sudoku Solver"
+						codeButtonText="Github"
+						imageURL={require('../contents/CSharp/sudoku.png')}
+						codeURL="https://github.com/Tavera15/Sudoku_Solver"
+						desc="A Sudoku solver built using Visual Studio C# Forms .Net Framework. This project implements the Backtrack algorithm to solve the puzzle."
+					/>
+
 				</div>
 			</div>
 		</div>
